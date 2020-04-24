@@ -1,8 +1,8 @@
 import React from 'react';
-import Styled from 'styled-components';
+import styled from 'styled-components';
 import Wave from './wave';
 
-const SectionGroup = Styled.div`
+const SectionGroup = styled.div`
     background: url(${props => props.image});
     height: 720px;
     background-size: cover;
@@ -16,13 +16,13 @@ const SectionGroup = Styled.div`
     }
 `
 
-const SectionLogo = Styled.img`
+const SectionLogo = styled.img`
     align-self: end;
     width: 120px;
     margin: 0 auto;
 `
 
-const SectionTitleGroup = Styled.div`
+const SectionTitleGroup = styled.div`
     display: grid;
     grid-template-columns: 300px auto;
     margin: 0 40px;
@@ -34,7 +34,7 @@ const SectionTitleGroup = Styled.div`
     }
 `
 
-const SectionTitle = Styled.h3`
+const SectionTitle = styled.h3`
     color: white;
     font-size: 60px;
     margin: 0;
@@ -45,16 +45,16 @@ const SectionTitle = Styled.h3`
     }
 `
 
-const SectionText = Styled.p`
+const SectionText = styled.p`
     color: white;
 `
 
-const WaveBottom = Styled.div`
+const WaveBottom = styled.div`
     position: absolute;
     width: 100%;
     bottom: -6px;
 `
-const WaveTop = Styled.div`
+const WaveTop = styled.div`
     position: absolute;
     width: 100%;
     top: -6px;
